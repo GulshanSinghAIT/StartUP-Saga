@@ -1,3 +1,288 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/* #pesticide-for-chrome-result:none; */
+
+
+.timer_heading{
+margin-bottom: 1px;
+text-decoration:underline rgb(199, 249, 232);
+padding-top: 20px;
+font-size: 1.8rem;
+padding-left: 11%;
+
+}
+.countdown-container {
+    padding: 5% 5%;
+    padding-bottom: 8%;
+    
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    justify-content:center ;
+    justify-content: space-evenly;
+  }
+  
+  .days-container,
+  .hours-container,
+  .minutes-container, 
+  .seconds-container {
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content: center;
+    /* background-color: rgba(165, 221, 183, 0.1); */
+    /* border: 3.5px solid rgba(0, 0, 0.3, 0.3); */
+    /* width: 140px; */
+    /* height: 140px; */
+    /* border-radius: 100px; */
+  }
+  
+  .days,
+  .hours,
+  .minutes,
+  .seconds {
+    font-weight: 500;
+    font-size: 8em; 
+    
+  }
+  
+  
+  .days-label,
+  .hours-label,
+  .minutes-label,
+  .seconds-label {
+    /* text-transform: uppercase; */
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 800px) {
+    
+    .countdown-container {
+      max-width:100%;
+    }
+    
+    .days-container,
+    .hours-container,
+    .minutes-container, 
+    .seconds-container {
+      
+      font-size: 0.8em;
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+
+
+.ig-post{
+  text-align-last: end;
+}
+
+
+#details{
+  line-height: 1.6;
+}
+
+.tim{
+  font-size: 4.5rem;
+  font-family: serif;
+}
+.tims{
+  font-family: serif;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 1155px) {
+    
+  .days,
+  .hours,
+  .minutes,
+  .seconds {
+    font-weight: 500;
+    font-size: 7em; 
+    
+  }
+  .tim{
+    font-size: 3.5rem;
+    
+  }
+  .tims{
+    font-family: serif;
+    font-size: 2rem;
+  }
+
+
+}
+
+
+@media (max-width: 980px) {
+    
+  .days,
+  .hours,
+  .minutes,
+  .seconds {
+    font-weight: 500;
+    font-size: 5.5em; 
+    
+  }
+  .tim{
+    font-size: 2.2rem;
+    
+  }
+  .tims{
+    font-family: serif;
+    font-size: 1.4rem;
+  }
+
+
+}
+
+
+  
+@media (max-width: 801px) {
+    
+  .days,
+  .hours,
+  .minutes,
+  .seconds {
+    font-weight: 500;
+    font-size: 4em; 
+    
+  }
+  .tim{
+    font-size: 1.5rem;
+    
+  }
+  .tims{
+    font-family: serif;
+    font-size: 0.8rem;
+  }
+
+
+}
+
+
+@media (max-width: 465px) {
+    
+  .days,
+  .hours,
+  .minutes,
+  .seconds {
+    font-weight: 500;
+    font-size: 3em; 
+    
+  }
+  .tim{
+    font-size: 1rem;
+    
+  }
+  .tims{
+    font-family: serif;
+    font-size: 0.4rem;
+  }
+
+
+}
+
+
+.info{
+  
+  padding: 25px;
+  padding-left: 0px;
+  
+}
+
+/* footer Section------------------- */
+
+.logos{
+  height: 90px;
+  width: 130px;
+  padding-left: 10px;
+
+  
+}
+.logoss{
+  padding-top: 8px;
+  padding-right: 10px;
+  width: 105px;
+  height: 78px;
+}
+
+
+.footer{
+  padding-bottom: 30px;
+}
+
+.line{
+  height: 100px;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.socials{
+  padding-top: 30px !important;
+  height: 80px;
+  padding: 10px;
+}
+
+.register{
+  align-items:stretch;
+  
+}
+.foot{
+  padding-top: 15%;
+}
+
+@media (max-width: 1200px){
+  .foot{
+    padding-top: 25%;
+  }
+  
+}
+
+@media (max-width: 750px){
+  .foot{
+    padding-top: 35%;
+  }
+  
+}
+
+@media (max-width: 500px){
+  .foot{
+    padding-top: 45%;
+  }
+  
+}
+/* .nav_bar{
+  position:fixed;
+} */
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
