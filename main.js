@@ -1,13 +1,10 @@
 import './style.css'
 
 const navBtn = document.querySelector('#menu');
-const menuBar = document.querySelector('[role="menubar]');
+const menuBar = document.querySelector('[role="menuBar"]');
 
 
 navBtn.addEventListener('click', () => {
-    const isExpanded = JSON.parse(navBtn.getAttribute('aria-expanded'));
-    console.log(isExpanded);
-    navBtn.setAttribute('aria-expanded', !isExpanded);
     menuBar.classList.toggle('hidden');
     menuBar.classList.toggle('flex');
   }) 
