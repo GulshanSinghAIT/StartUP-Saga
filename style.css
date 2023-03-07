@@ -262,6 +262,69 @@ padding-left: 11%;
   position:fixed;
 } */
   
+.fadeIn{
+  animation: fadeIn 0.8s both;
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.hovering{
+  animation: hovering 5s both ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 1.2s;
+}
+@keyframes hovering{
+  0%{
+    transform: translateY(8px);
+  }
+  50%{
+    transform: translateY(-8px);
+  }
+  100%{
+    transform: translateY(8px);
+  }
+}
+.comeInRight{
+  animation: comeInRight 1s both;
+}
+@keyframes comeInRight {
+  0%{
+    transform: translateX(200px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+.comeInLeft{
+  animation: comeInLeft 1s both;
+}
+@keyframes comeInLeft {
+  0%{
+    transform: translateX(-200px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+
+
+.hidder{
+  opacity: 0;
+  transform: translateY(-100px);
+  transition: all 1s;
+}
+.shower{
+  opacity: 100;
+  transform: translateY(0);
+  transition: all 1s;
+}
 
 
 

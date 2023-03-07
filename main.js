@@ -82,6 +82,19 @@ navBtn.addEventListener('click', () => {
       });
   }
 
+  const observer = new IntersectionObserver((entries)=>{
+    entries.forEach((entry)=>{
+      if (entry.isIntersecting) {
+        entry.target.classList.add('shower')
+      }
+      else{
+        entry.target.classList.remove('shower')
+      }
+    })
+  })
+  const hiddenElements = document.querySelectorAll('.hidder')
+  hiddenElements.forEach((el)=>observer.observe(el))
+
 
 
 

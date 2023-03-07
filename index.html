@@ -20,7 +20,7 @@
 
   <!-- ...................navbar..................... -->
 
-  <nav class="nav_bar  mx-auto p-1.5  bg-neutral-700">
+  <nav class="nav_bar mx-auto p-2  bg-[#86C7ED] animated fadeIn">
     <div class="container
       mx-auto
       flex
@@ -28,11 +28,7 @@
       justify-between
       ">
       <a href="/" class="focus:outline-none
-        focus-visible:ring-4
-     ring-neutral-900
       rounded-sm
-      ring-offset-4
-     ring-offset-neutral-700
       lg:absolute
       px-5
       z-50
@@ -40,20 +36,25 @@
       transition-opacity
         
         " aria-label="Go to homepage">
-        <img src="/assets/ECEL LOGO.png" width="70" class="w-18
-          md:w-20 lg:w-24 transform
+        <img src="/assets/StartUpSaga.svg" width="60" class="w-16
+         
+          md:w-18 lg:w-24 transform
           transition-all
           hover:scale-110 " alt="Ecell logo">
-      </a>
 
+
+      </a>
+      <h1 class="relative text-2xl text-[#27096D] transform
+      transition-all
+      hover:scale-110 font-semibold px-32">StartupSaga</h1>
       <button id="menu" class="
     lg:hidden
     focus:outline-none
     focus-visible:ring-4
-    ring-neutral-900
+   
     rounded-sm
-    ring-offset-4
-    ring-offset-neutral-700
+    
+    
     text-neutral-100
     hover:text-neutral-600
       transition-colors
@@ -71,8 +72,8 @@
       z-40
       right-0
       left-0
-      top-14
-      bg-neutral-700
+      top-12
+      bg-[#86C7ED]
       shadow-2xl
       text-center
       text-lg
@@ -96,11 +97,13 @@
       transform
           transition-all
           hover:scale-110
+        
         py-1
         px-4
         rounded-sm
-      text-neutral-100
-      hover:text-neutral-400
+        font-semibold
+      text-[#27096D]
+      hover:text-neutral-100
         
         
         " href="#homee">Home</a>
@@ -115,8 +118,9 @@
         px-4
         rounded-sm
         ring-offset-4
-      text-neutral-100
-      hover:text-neutral-400
+        font-semibold
+        text-[#27096D]
+      hover:text-neutral-100
         
         
         " href="#details">Details</a>
@@ -127,8 +131,9 @@
           hover:scale-110
         py-1
         px-4
-      text-neutral-100
-      hover:text-neutral-400
+        font-semibold
+        text-[#27096D]
+      hover:text-neutral-100
         
         
         " href="/">Timeline</a>
@@ -142,8 +147,9 @@
         px-4
         ring-neutral-900
         rounded-sm
-      text-neutral-100
-      hover:text-neutral-400
+        font-semibold
+        text-[#27096D]
+      hover:text-neutral-100
         
         
         " href="#Prizess">Prizes</a>
@@ -156,8 +162,9 @@
           hover:scale-110
         py-1
         px-4
-        text-neutral-100
-       hover:text-neutral-400
+        font-semibold
+      text-[#27096D]
+       hover:text-neutral-100
         
        
         " href="#FAQ">FAQs</a>
@@ -169,8 +176,9 @@
           hover:scale-110
         py-1
         px-4
-      text-white
-        hover:text-neutral-400
+        font-semibold
+        text-[#27096D]
+        hover:text-neutral-100
         rounded-md
       
         
@@ -189,11 +197,12 @@
       ring-neutral-900
       rounded-sm
      
-    text-neutral-100
-      hover:text-neutral-400
+      font-semibold
+      text-[#27096D]
+      hover:text-neutral-100
         
         
-        " href="#footerr">Contact Us</a>
+        " href="#footerr">ContactUs</a>
 
 
       </div>
@@ -208,10 +217,10 @@
   <!-- .....................hero section.......................... -->
 
   <section aria-labeledby="home" class="relative py-10
-">
+fadeIn -z-10">
     <div id="homee" class="flex flex-wrap-reverse gap-8 justify-evenly">
       <div class="flex gap-9 flex-wrap flex-col items-start
-    lg:justify-center">
+    lg:justify-center comeInLeft">
         <div class="flex-flex-wrap max-w-sm flex-col items-start gap-2">
           <h2 class="text-4xl  font-semibold">
             Startup Saga: A bug in Startup
@@ -227,8 +236,8 @@
           transition-all
           hover:scale-110
           py-2
-          px-6
-          bg-neutral-700
+          px-9
+          bg-[#27096D]
           text-white
           flex
           gap-2
@@ -244,15 +253,19 @@
         </a>
 
       </div>
-      <img src="/assets/Frame 12.svg" width="600" class="p-12 lg:w-999" alt="">
+      <div class="comeInRight">
+
+        <img src="/assets/Frame 12.svg" width="600" class="p-12 lg:w-999" alt="">
+      </div>
     </div>
+
   </section>
 
 
 
   <!-- ........................ Countdown Timer .......................... -->
 
-  <section class="relative ">
+  <section class="relative hidder">
 
     <h1 class=" timer_heading font-semibold">Registrations end in:</h1>
 
@@ -303,11 +316,14 @@
 
 
       <div id="details" class="flex flex-wrap gap-8 justify-evenly">
-        <img src="/assets/Instagram post - 1.svg" width="580" class=" ig-post p-8 lg:w-950" alt="">
+        <img src="/assets/Instagram post - 1.svg" width="580" class=" ig-post p-8 lg:w-950 hovering" alt="">
         <div class="flex gap-9 flex-wrap flex-col items-start
         lg:justify-center">
+
+          <img class="absolute opacity-10 " src="/assets/StartUpSaga.svg" alt="">
+
           <div class="flex-flex-wrap flex-col items-start gap-2">
-            <h2 class="text-3xl  font-semibold px-2">
+            <h2 class="text-3xl  font-semibold px-4">
 
 
 
@@ -315,14 +331,14 @@
             </h2>
 
             <br>
-            <p class=" text-sm max-w-lg px-2">The Innovation and Entrepreneurship Cell aims to promote the
+            <p class=" text-sm text-justify max-w-lg px-2">The Innovation and Entrepreneurship Cell aims to promote the
               entrepreneurship
               culture amongst the students by providing multiple platforms to budding entrepreneurs
               where they can improve upon their business models, get mentorship by successful
               entrepreneurs, interact with investors and groom their entrepreneurship skills.
             </p>
             <br>
-            <p class="max-w-lg text-sm font-bold px-2">
+            <p class="max-w-lg text-sm text-justify font-bold px-4">
               A brilliant notion requires careful refining to become a reality. I&E-Cell of AIT Pune is pleased to
               deliver one of its kind STARTUP SAGA - A BUG IN A STARTUP.
             </p>
@@ -336,7 +352,7 @@
         
         md:flex-1
         ">
-              <div class="
+              <div class=" px-4
         
         ">
 
@@ -344,8 +360,9 @@
 
               </div>
               <div>
-                <h1 class="text-xl font-semibold  px-4">Udyamita</h1>
-                <p class="max-w-md text-sm px-4">I&E-Cell published its very first newsletter "Udyamita" (2020-2021).
+                <h1 class="text-xl font-semibold  px-1">Udyamita</h1>
+                <p class="max-w-md text-justify text-sm px-1">I&E-Cell published its very first newsletter "Udyamita"
+                  (2020-2021).
                   It's a record of the wonderful things I&E-Cell has been able to achieve with the support and guidance
                   of the esteemed faculty, expert alumni as well as with the participation of students</p>
               </div>
@@ -357,14 +374,14 @@
         
         md:flex-1
         ">
-              <div class="
+              <div class="px-4
         ">
                 <img src="/assets/Group 61 (1).svg" alt="">
 
               </div>
               <div>
-                <h1 class="text-xl  font-semibold px-4">Entrepreneurship</h1>
-                <p class="max-w-md text-sm px-4">We hope that this record may serve to inspire a flame of
+                <h1 class="text-xl  font-semibold px-1">Entrepreneurship</h1>
+                <p class="max-w-md text-justify text-sm px-1">We hope that this record may serve to inspire a flame of
                   entrepreneurship that becomes a blazing crescendo of innovation, out-of the-box thinking, and
                   entrepreneurship.</p>
               </div>
@@ -376,15 +393,15 @@
         
         md:flex-1
         ">
-              <div class="
+              <div class=" px-4
        
         ">
                 <img src="/assets/Group 61.svg" alt="">
 
               </div>
               <div>
-                <h1 class="text-xl  font-semibold px-4">I&E Cell</h1>
-                <p class="max-w-md text-sm px-4">AIT family has a legacy of more than 60 successful alumni
+                <h1 class="text-xl  font-semibold px-1">I&E Cell</h1>
+                <p class="max-w-md text-justify text-sm px-1">AIT family has a legacy of more than 60 successful alumni
                   entrepreneurs. Our I&E-Cell hood is significantly expanding its family with the recent addition of
                   student startups viz Cheqit, Elktrun, Xefficient, Momentum Robotics and more. To know more about the
                   same please find the attached pdf here.</p>
@@ -399,7 +416,7 @@
 
 
       <!---------------------- Prizes section --------------------------->
-      <div id="Prizess" class="prizes mx-auto max-w-xl relative top-12">
+      <div id="Prizess" class="prizes mx-auto max-w-xl relative top-12 hidder">
         <h1 class="text-center mx-auto font-sans text-4xl font-bold">Prizes</h1>
         <div class="transform
         transition-all
@@ -506,14 +523,14 @@
       <img src="assets/Group 39.svg" alt="" class="justify-center w-full lg:w-80 md:w-80">
       </div>
     </div> -->
-      <div id="FAQ" class="faqsection relative top-28 mx-auto">
+      <div id="FAQ" class="faqsection relative top-28 mx-auto hidder">
         <h1 class="text-center mx-auto font-sans text-4xl font-bold">FAQ</h1>
         <div class="faq prizes mx-auto max-w-full relative top-2 flex justify-center">
           <div
             class="container lg:grid lg:grid-rows-1 lg:grid-cols-2 lg:items-center md:flex md:flex-col-reverse md:justify-center md:items-center flex flex-col-reverse p-4 w-fit">
             <div class="faqmain col-span-1">
               <div class="question gap-2 mt-12 border-solid  border-2 border-neutral-600 rounded-md">
-                <div class="question-question flex justify-center p-2 rounded-md bg-[#B4CDEC]">
+                <div class="question-question flex justify-center p-2 rounded-md bg-[#86C7ED]">
                   <div class="faqquestion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, similique.
                   </div>
                   <div class="arrow translate-y-0.5">
@@ -611,7 +628,7 @@
             </div>
 
 
-            <img src="assets/Group 39.svg" alt="" class="justify-center lg:ml-12 relative top-5 w-full col-span-1">
+            <img src="assets/Group 39.svg" alt="" class="justify-center lg:ml-12 relative top-5 w-full col-span-1 hovering">
           </div>
         </div>
       </div>
@@ -622,7 +639,7 @@
 
 
       <!------------------- Sponsors section ------------------->
-      <div id="Sponc" class="sponsors mx-auto relative top-40">
+      <div id="Sponc" class="sponsors mx-auto relative top-40 hidder">
         <h1 class="text-center mx-auto font-sans text-4xl justify-center font-bold">Our Sponsors</h1>
         <div class="sponsor-cards">
           <div class="keysponsors flex gap-2 justify-center mt-8">
@@ -635,17 +652,17 @@
           <div class="sponsorcards flex flex-col items-center lg:flex-row gap-8 justify-center mt-4">
             <div class="  transform
             transition-all
-            hover:scale-110 sponsor bg-[#B4CDEC] w-40 p-6 justify-center rounded-sm">
+            hover:scale-110 sponsor bg-[#A183E7] w-40 p-6 justify-center rounded-sm">
               <img src="assets/Devfolio_Logo-Colored.png" alt="">
             </div>
             <div class="   transform
             transition-all
-            hover:scale-110 sponsor bg-[#B4CDEC] w-40 p-6 justify-center rounded-sm">
+            hover:scale-110 sponsor bg-[#A183E7] w-40 p-6 justify-center rounded-sm">
               <img src="assets/Polygon_Logo-Dark.png" alt="">
             </div>
             <div class="  transform
             transition-all
-            hover:scale-110 sponsor bg-[#B4CDEC] w-40 p-7 justify-center rounded-sm">
+            hover:scale-110 sponsor bg-[#A183E7] w-40 p-7 justify-center rounded-sm">
               <img src="assets/Solana-Colored.svg" alt="">
             </div>
           </div>
@@ -659,10 +676,10 @@
             <img src="assets/Line 26.svg" alt="" class="opacity-0 lg:opacity-100">
           </div>
           <div class="sponsorcards flex flex-col items-center lg:flex-row gap-8 justify-center mt-4">
-            <div class="sponsor bg-[#B4CDEC] w-40 p-6 justify-center rounded-sm">
+            <div class="sponsor bg-[#A183E7] w-40 p-6 justify-center rounded-sm">
               <img src="assets/Devfolio_Logo-Colored.png" alt="">
             </div>
-            <div class="sponsor bg-[#B4CDEC] w-40 p-6 justify-center rounded-sm">
+            <div class="sponsor bg-[#A183E7] w-40 p-6 justify-center rounded-sm">
               <img src="assets/Polygon_Logo-Dark.png" alt="">
             </div>
 
@@ -686,8 +703,8 @@
 
       <section aria-labeledby="footer" class="foot relative 
 ">
-        <div id="footerr" class="bg-neutral-700 flex flex-wrap justify-evenly">
-          <div class="register flex gap-3  flex-wrap flex-col 
+        <div id="footerr" class="bg-[#86C7ED] flex flex-wrap justify-evenly">
+          <div class="register flex gap-3  flex-wrap flex-col
           justify-center">
 
             <a href="#" class="
@@ -697,7 +714,7 @@
           py-2
           px-6
           border-2
-          bg-neutral-800
+          bg-[#27096D]
           hover:bg-neutral-600
           flex
           text-white
@@ -715,8 +732,9 @@
           py-2
           px-8
           bg-neutral-50
-          text-black
+          text-[#27096D]
           border-2
+          border-[#27096D]
           flex
           gap-2
           shadow-2xl
@@ -787,7 +805,7 @@
           hover:scale-110
           py-2
           px-6
-          bg-neutral-900
+          bg-[#27096D]
           border-2
           flex
           gap-2
